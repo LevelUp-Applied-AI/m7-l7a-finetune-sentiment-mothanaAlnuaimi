@@ -92,8 +92,7 @@ def make_training_args(
     batch_size: int = 8,
     seed: int = 42,
 ) -> TrainingArguments:
-    """Return a TrainingArguments configured for fine-tuning."""
-    return TrainingArguments(
+    args = TrainingArguments(
         output_dir=output_dir,
         learning_rate=lr,
         num_train_epochs=epochs,
@@ -104,6 +103,10 @@ def make_training_args(
         save_strategy="epoch",
         logging_steps=50,
     )
+    # Fix for older transformers that return IntervalStrategy enum instead of string
+    args.eval_strategy = args.eval_strategy.value if hasattr(args.eval_strategy, "value") else args.eval_strategy
+    args.save_strategy = args.save_strategy.value if hasattr(args.save_strategy, "value") else args.save_strategy
+    return args
 
 
 def compute_metrics(eval_pred):
