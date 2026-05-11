@@ -1,0 +1,13 @@
+text,label,predicted_label,predicted_probability,prob_negative,prob_neutral,prob_positive
+kills the tree even though i'm only in the app.,negative,negative,0.5756394863128662,0.5756394863128662,0.18677322566509247,0.23758722841739655
+cannot open it any more,negative,negative,0.649380087852478,0.649380087852478,0.24218590557575226,0.1084340363740921
+i think tim needs to get an ipad if he's complaining about a doc with <number> 's of pages on his phone? clean the cobwebs out of your wallet!,neutral,negative,0.6580019593238831,0.6580019593238831,0.10493870079517365,0.23705929517745972
+good apps for photo editing,positive,positive,0.8491595983505249,0.08821259438991547,0.06262782216072083,0.8491595983505249
+i will use the app but only in the <url> let's <url> hope this helps,neutral,neutral,0.4316515326499939,0.37784266471862793,0.4316515326499939,0.19050578773021698
+very useful to book hotels,positive,positive,0.7531844973564148,0.07450425624847412,0.17231127619743347,0.7531844973564148
+"it would be cooler if you could mix and match the pants, shoes, shirts, jackets, etc. instead of having to choose from predetermined outfits. i want to make my own outfit!",positive,positive,0.8800528049468994,0.05158873647451401,0.06835844367742538,0.8800528049468994
+"love being able to edit the raw photos my galaxy s <number> edge takes. much more convenient to edit on phone then in desktop lightroom. only problem i have is raw photos don't show up in app right away, seems i have to restart the phone for them to index, force closing the app and reopening doesn't work.",positive,negative,0.6242346167564392,0.6242346167564392,0.2531435191631317,0.12262188643217087
+way too many advertisements,positive,positive,0.4397563934326172,0.26252302527427673,0.2977205514907837,0.4397563934326172
+needs graduated filter/local adjustment asap!,neutral,negative,0.6304020881652832,0.6304020881652832,0.2732439637184143,0.09635396301746368
+"there is no way to search or jump to the pages i want. so, in a <number> page document, i have to page down until i get to where i want. very poor!",neutral,positive,0.485962450504303,0.33930733799934387,0.17473021149635315,0.485962450504303
+it's better than the other photo editors,neutral,positive,0.6772189140319824,0.11392688751220703,0.20885422825813293,0.6772189140319824
