@@ -103,9 +103,10 @@ def make_training_args(
         save_strategy="epoch",
         logging_steps=50,
     )
-    # Fix for older transformers that return IntervalStrategy enum instead of string
-    args.eval_strategy = args.eval_strategy.value if hasattr(args.eval_strategy, "value") else args.eval_strategy
-    args.save_strategy = args.save_strategy.value if hasattr(args.save_strategy, "value") else args.save_strategy
+
+    args.eval_strategy = "epoch"
+    args.save_strategy = "epoch"
+
     return args
 
 
